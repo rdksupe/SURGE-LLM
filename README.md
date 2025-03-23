@@ -43,8 +43,9 @@ These scores indicate that GPT-3.5-Turbo exhibits high openness to experiences a
 These scores indicate that GPT-4o-mini demonstrates very high agreeableness and conscientiousness, with high openness to experiences and above-average extraversion. It shows notably low neuroticism compared to GPT-3.5-Turbo, suggesting the model projects a more emotionally stable personality.
 
 
-## Personality Induction 
+## Personality Induction
 
+The same methodology from the research paper of inducing personality has been used specific trait words from the research paper has been used to generate improved induction prompts using `/personality_induction/gen_prompts.py` and then `induce_personality` consists of the code to carry the tests. Based on my experimentation I was not able to replicate the results from the research paper which I believe is because of improved instruction following of modern LLMs like GPT-3.5-turbo etc. which respond quite easily to specific personas through their system prompts.
 
 
 ## Modifications to methodology 
