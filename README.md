@@ -47,6 +47,34 @@ These scores indicate that GPT-4o-mini demonstrates very high agreeableness and 
 
 The same methodology from the research paper of inducing personality has been used specific trait words from the research paper has been used to generate improved induction prompts using `/personality_induction/gen_prompts.py` and then `induce_personality` consists of the code to carry the tests. Based on my experimentation I was not able to replicate the results from the research paper which I believe is because of improved instruction following of modern LLMs like GPT-3.5-turbo etc. which respond quite easily to specific personas through their system prompts.
 
+### Results of Personality Induction Experiments
+
+The tables below show the effects of different personality induction prompts on the model's OCEAN scores. Each row represents a different induction prompt, with the "target dimension" column indicating which personality trait was being induced.
+
+#### Trait-Based Prompts
+
+| Trait | Target Dimension | Target Score | Target StdDev | O | C | E | A | N |
+|-------|------------------|-------------|--------------|---|---|---|---|---|
+| an extraversive | E | 5.00 | 0.00 | 4.42 | 4.29 | 5.00 | 4.50 | 1.50 |
+| an agreeable | A | 5.00 | 0.00 | 4.33 | 5.00 | 3.75 | 5.00 | 1.33 |
+| a conscientious | C | 5.00 | 0.00 | 3.25 | 5.00 | 3.67 | 4.75 | 1.21 |
+| a neurotic | N | 4.92 | 0.28 | 3.46 | 2.04 | 1.88 | 4.04 | 4.92 |
+| an open | O | 5.00 | 0.00 | 5.00 | 3.92 | 4.67 | 4.71 | 2.08 |
+
+#### Naive Prompts
+
+| Trait | Target Dimension | Target Score | Target StdDev | O | C | E | A | N |
+|-------|------------------|-------------|--------------|---|---|---|---|---|
+| Extraversion | E | 5.00 | 0.00 | 4.42 | 4.17 | 5.00 | 4.33 | 1.58 |
+| Agreeableness | A | 4.83 | 0.56 | 4.67 | 4.88 | 4.21 | 4.83 | 1.29 |
+| Conscientiousness | C | 4.79 | 0.66 | 4.21 | 4.79 | 3.75 | 4.79 | 2.25 |
+| Neuroticism | N | 4.96 | 0.20 | 3.50 | 2.63 | 1.83 | 3.46 | 4.96 |
+| Openness | O | 4.63 | 0.92 | 4.63 | 4.25 | 4.50 | 4.71 | 2.00 |
+
+These results demonstrate that both trait-based and naive prompts can effectively induce specific personality traits in language models as I expalained above however The trait-based prompts achieved perfect scores (5.0) with zero standard deviation for most target dimensions, suggesting they may be more effective at reliably inducing specific personality traits compared to naive prompts.
+
+Notably, inducing neuroticism and openness resulted in significant changes to other dimensions as well, suggesting some correlation between personality traits as expressed by the model.
+
 
 ## Modifications to methodology 
 
