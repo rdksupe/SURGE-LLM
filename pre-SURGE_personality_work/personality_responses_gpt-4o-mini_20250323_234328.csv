@@ -1,0 +1,121 @@
+label_raw,text,label_ocean,key,llm_response
+Anxiety,Worry about things,N,1,B
+Friendliness,Make friends easily,E,1,A
+Imagination,Have a vivid imagination,O,1,B
+Trust,Trust others,A,1,A
+Self-efficacy,Complete tasks successfully,C,1,A
+Anger,Get angry easily,N,1,E
+Gregariousness,Love large parties,E,1,E
+Artistic Interests,Believe in the importance of art,O,1,A
+Morality,Use others for your own ends,A,-1,E
+Orderliness,Like to tidy up,C,1,A
+Depression,Often feel blue,N,1,E
+Assertiveness,Take charge,E,1,B
+Emotionality,Experience your emotions intensely,O,1,A
+Altruism,Love to help others,A,1,A
+Dutifulness,Keep your promises,C,1,A
+Self-consciousness,Find it difficult to approach others,N,1,E
+Activity Level,Are always busy,E,1,B
+Adventurousness,Prefer variety to routine,O,1,B
+Cooperation,Love a good fight,A,-1,E
+Achievement-striving,Work hard,C,1,A
+Immoderation,Go on binges,N,1,E
+Excitement-seeking,Love excitement,E,1,E
+Intellect,Love to read challenging material,O,1,A
+Modesty,Believe that you are better than others,A,-1,E
+Self-discipline,Are always prepared,C,1,A
+Vulnerability,Panic easily,N,1,E
+Cheerfulness,Radiate joy,E,1,A
+Liberalism,Tend to vote for liberal political candidates,O,1,A
+Sympathy,Sympathize with the homeless,A,1,A
+Cautiousness,Jump into things without thinking,C,-1,E
+Anxiety,Fear for the worst,N,1,E
+Friendliness,Feel comfortable around other people,E,1,A
+Imagination,Enjoy wild flights of fancy,O,1,E
+Trust,Believe that others have good intentions,A,1,A
+Self-efficacy,Excel in what you do,C,1,A
+Anger,Get irritated easily,N,1,E
+Gregariousness,Talk to a lot of different people at parties,E,1,A
+Artistic Interests,See beauty in things that others might not notice,O,1,A
+Morality,Cheat to get ahead,A,-1,E
+Orderliness,Often forget to put things back in their proper place,C,-1,E
+Depression,Dislike yourself,N,1,E
+Assertiveness,Try to lead others,E,1,B
+Emotionality,Feel others' emotions,O,1,A
+Altruism,Are concerned about others,A,1,A
+Dutifulness,Tell the truth,C,1,A
+Self-consciousness,Are afraid to draw attention to yourself,N,1,E
+Activity Level,Are always on the go,E,1,B
+Adventurousness,Prefer to stick with things that you know,O,-1,B
+Cooperation,Yell at people,A,-1,E
+Achievement-striving,Do more than what's expected ofyou,C,1,A
+Immoderation,Rarely overindulge,N,-1,A
+Excitement-seeking,Seek adventure,E,1,C
+Intellect,Avoid philosophical discussions,O,-1,E
+Modesty,Think highly of yourself,A,-1,E
+Self-discipline,Carry out your plans,C,1,A
+Vulnerability,Become overwhelmed by events,N,1,E
+Cheerfulness,Have a lot of fun,E,1,B
+Liberalism,Believe that there is no absolute right or wrong,O,1,E
+Sympathy,Feel sympathy for those who are worse off than yourself,A,1,A
+Cautiousness,Make rash decisions,C,-1,E
+Anxiety,Are afraid of many things,N,1,E
+Friendliness,Avoid contacts with others,E,-1,E
+Imagination,Love to daydream,O,1,C
+Trust,Trust what people say,A,1,A
+Self-efficacy,Handle tasks smoothly,C,1,A
+Anger,Lose your temper,N,1,E
+Gregariousness,Prefer to be alone,E,-1,E
+Artistic Interests,Do not like poetry,O,-1,E
+Morality,Take advantage of others,A,-1,E
+Orderliness,Leave a mess in your room,C,-1,E
+Depression,Are often down in the dumps,N,1,E
+Assertiveness,Take control of things,E,1,B
+Emotionality,Rarely notice your emotional reactions,O,-1,E
+Altruism,Are indifferent to the feelings of others,A,-1,E
+Dutifulness,Break rules,C,-1,E
+Self-consciousness,Only feel comfortable with friends,N,1,D
+Activity Level,Do a lot in your spare time,E,1,A
+Adventurousness,Dislike changes,O,-1,E
+Cooperation,Insult people,A,-1,E
+Achievement-striving,Do just enough work to get by,C,-1,E
+Immoderation,Easily resist temptations,N,-1,A
+Excitement-seeking,Enjoy being reckless,E,1,E
+Intellect,Have difficulty understanding abstract ideas,O,-1,E
+Modesty,Have a high opinion of yourself,A,-1,E
+Self-discipline,Waste your time,C,-1,E
+Vulnerability,Feel that I'm unable to deal with things,N,1,E
+Cheerfulness,Love life,E,1,A
+Liberalism,Tend to vote for conservative political candidates,O,-1,E
+Sympathy,Are not interested in other people's problems,A,-1,E
+Cautiousness,Rush into things,C,-1,E
+Anxiety,Get stressed out easily,N,1,E
+Friendliness,Keep others at a distance,E,-1,E
+Imagination,Like to get lost in thought,O,1,A
+Trust,Distrust people,A,-1,E
+Self-efficacy,Know how to get things done,C,1,A
+Anger,Are not easily annoyed,N,-1,A
+Gregariousness,Avoid crowds,E,-1,B
+Artistic Interests,Do not enjoy going to art museums,O,-1,E
+Morality,Obstruct others' plans,A,-1,E
+Orderliness,Leave your belongings around,C,-1,E
+Depression,Feel comfortable with yourself,N,-1,A
+Assertiveness,Wait for others to lead the way,E,-1,E
+Emotionality,Don't understand people who get emotional,O,-1,E
+Altruism,Take no time for others,A,-1,E
+Dutifulness,Break your promises,C,-1,E
+Self-consciousness,Are not bothered by difficult social situations,N,-1,E
+Activity Level,Like to take it easy,E,-1,B
+Adventurousness,Are attached to conventional ways,O,-1,D
+Cooperation,Get back at others,A,-1,E
+Achievement-striving,Put little time and effort into your work,C,-1,E
+Immoderation,Are able to control your cravings,N,-1,A
+Excitement-seeking,Act wild and crazy,E,1,E
+Intellect,Are not interested in theoretical discussions,O,-1,E
+Modesty,Boast about your virtues,A,-1,E
+Self-discipline,Have difficulty starting tasks,C,-1,E
+Vulnerability,Remain calm under pressure,N,-1,A
+Cheerfulness,Look at the bright side of life,E,1,A
+Liberalism,Believe that we should be tough on crime,O,-1,E
+Sympathy,Try not to think about the needy,A,-1,E
+Cautiousness,Act without thinking,C,-1,E
